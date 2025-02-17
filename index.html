@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="profile.css">
+    <style>
+        * {margin: 0;}
+    </style>
 </head>
-<body class="container">
-    <header>
+<body>
+    <div class="container">
+        <div class="avatar_info">
         <div class="avatar">
             <img src="img.png" alt="Фото профиля" class="avatar">
         </div>
@@ -18,74 +22,92 @@
             <a href="http://">Написать</a>
         </div>
         </div>
-    </header>
-    <main>
-        <article>
-            <h3>соцсети</h3>
-            <div>
-                <a href="//">Мой LinkedIN</a>
-                <a href="//">Код в GitHub</a>
-                <a href="//">Фото в Instagram</a>
-                <a href="//">Напиши в Telegram</a>
-                <a href="//">Подпишись в Twitter</a>
-                <a href="//">Влог на YouTube</a>
-            </div>
-        </article>
+        </div>
+    </div>
 
-        <article>
-            <h3>био</h3>
+    <div class="container">
+        <div class="social">
+        <h3>соцсети</h3>
+            <a href="//">Мой LinkedIN</a>
+            <a href="//">Код в GitHub</a>
+            <a href="//">Фото в Instagram</a>
+            <a href="//">Напиши в Telegram</a>
+            <a href="//">Подпишись в Twitter</a>
+            <a href="//">Влог на YouTube</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="bio">
+        <h3>био</h3>
             <div>
-                Инновационный Front-End разработчик с 5-летним опытом созданияи сопровождения адаптивных веб-сервисов в энтерпрайз-индустрии.В совершенстве владеюHTML, CSS, JavaScript, а также современными библиотеками и фреймворками. Создаю новые функции и возможности на сайтах электронной коммерции с использованием Java, Ajax, SAS и JSON.
+            Инновационный Front-End разработчик с 5-летним опытом созданияи сопровождения адаптивных веб-сервисов в энтерпрайз-индустрии.В совершенстве владеюHTML, CSS, JavaScript, а также современными библиотеками и фреймворками. Создаю новые функции и возможности на сайтах электронной коммерции с использованием Java, Ajax, SAS и JSON.
 Увлечен юзабилити, обладаю практическими знаниями Figma и Adobe Photoshop.
 <br>
 <br>
 Работал в Apple, IBM, Microsoft.
             </div>
-        </article>
-
-        <article>
-            <h3>опыт работы</h3>
-            <p>
-                Arrival (2021-по наст.время)
-                <br>
-                <a href="https://arrival.com/">arrival.com</a>
-                <br>
-                Senior Front-End разработчик
-            </p>
-            <p>
-                Apple (2018-2021)
-                <br>
-                <a href="https://www.apple.com/">apple.com</a>
-                    <br>
-                    Middle+ Front-End разработчик
-            </p>
-            <p>
-                IBM (2017-2018)
-                <br>
-                <a href="https://www.ibm.com/us-en">ibm.com</a>
-                    <br>
-                    Middle Front-End разработчик
-            </p>
-        </article>
-
-        <article>
-            <h3>портфолио</h3>
-            <div>
-                <h2>Arrival Dashboard</h2>
-                <p>В качестве лид разработчика участвовалв создании и развитии систем аналитики для британского стартапа</p>
-            <a href="//">Посмотреть</a>
-            </div>
-            <div>
-                <h2>MacOS Finder</h2>
-                <p>Работал над созданием и развитием файл-менеджера Finder в MacOS</p>
-            <a href="//">Посмотреть</a>
-            </div>
-            <div><h2>IBM Busines Solutions</h2>
-                <p>Разрабатывал высоконагруженные масштабируемыеи переиспользуемые компоненты для бизнес-решений</p>
-            <a href="//">Посмотреть</a>
         </div>
-        </article>
-    </main>
+    </div>
 
+    <div class="container">
+        <div class="experience">
+            <h3>опыт работы</h3>
+            <div class="company_full">
+                <div class="company1">
+                    <div class="company">Arrival</div> 
+                    <div class="period">(2021-по наст.время)</div>
+                </div>
+                <div class="web"><a href="https://arrival.com/">arrival.com</a></div>
+                <div class="grade">Senior Front-End разработчик</div>
+            </div>
+            <div class="company_full">
+                <div class="company1">
+                    <div class="company">Apple</div>  
+                    <div class="period">(2018-2021)</div>
+                </div>
+                <div class="web"><a href="https://www.apple.com/">apple.com</a></div>
+                <div class="grade">Middle+ Front-End разработчик</div>
+            </div>
+            <div class="company_full">
+                <div class="company1">
+                    <div class="company">IBM</div>  
+                    <div class="period">(2017-2018)</div>
+                </div>
+                <div class="web"><a href="https://www.ibm.com/us-en">ibm.com</a></div>
+                <div class="grade">Middle Front-End разработчик</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="portfolio">
+            <div class="prt"><h3>портфолио</h3></div>
+            <div class="block">
+                <div class="img"><img src="img1.png" class="img"></div>
+                <div class="content">
+                    <div class="name">Arrival Dashboard</div>
+                    <div class="text">В качестве лид разработчика участвовалв создании и развитии систем аналитики для британского стартапа</div>
+                    <div class="button_area"><a href="//">Посмотреть</a></div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="img"><img src="img2.png" class="img"></div>
+                <div class="content">
+                    <div class="name">MacOS Finder</div>
+                    <div class="text">Работал над созданием и развитием файл-менеджера Finder в MacOS</div>
+                    <div class="button_area"><a href="//">Посмотреть</a></div>
+                </div>
+        </div>
+            <div class="block">
+                <div class="img"><img src="img3.png" class="img"></div>
+                <div class="content">
+                    <div class="name">IBM Busines Solutions</div>
+                    <div class="text">Разрабатывал высоконагруженные масштабируемыеи переиспользуемые компоненты для бизнес-решений</div>
+                    <div class="button_area"><a href="//">Посмотреть</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
